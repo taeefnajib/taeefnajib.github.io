@@ -702,7 +702,7 @@ ul#nav li.active a {
 .single-experience {
     margin-bottom: 50px;
     overflow: hidden;
-    padding-left: 180px;
+    padding-left: 250px;
     position: relative;
 }
 
@@ -725,16 +725,17 @@ ul#nav li.active a {
     left: 0;
     position: absolute;
     top: 0;
-    width: 160px;
+    width: 260px;
 }
 
 .working-organization::after {
     background: #333 none repeat scroll 0 0;
     content: "";
+    display: none;
     height: 20px;
     position: absolute;
-    right: 0;
-    top: 50%;
+    right: 48px;
+    top: 40%;
     -webkit-transform: translateY(-50%) rotate(45deg);
     transform: translateY(-50%) rotate(45deg);
     -webkit-transform-origin: 0 0 0;
@@ -894,7 +895,7 @@ ul#nav li.active a {
 
 .single-tesmonial-thumb.slick-slide.slick-current {
     background: #333 none repeat scroll 0 0;
-    padding: 10px;
+    /* padding: 0px; */
 }
 
 .single-tesmonial-thumb.slick-slide.slick-current img {
