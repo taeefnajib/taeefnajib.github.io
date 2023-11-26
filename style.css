@@ -799,7 +799,7 @@ ul#nav li.active a {
 
 .single-portfolio:hover::after {
     left: 0;
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 .gallery-img img {
@@ -816,6 +816,12 @@ ul#nav li.active a {
 
 .portfolio-hidding h3 {
     font-size: 18px;
+    color: #333;
+}
+
+.portfolio-hidding p {
+    margin: 0 20px 10px;
+    color: #333;
 }
 
 .portfolio-popup {
